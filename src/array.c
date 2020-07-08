@@ -17,7 +17,7 @@ unsigned int binary_search(int A[],int x,int n){
 int main(){
   int i, lb = -1;
   scanf("%d%d", &n, &k);
-  ub = n;
+  int ub = n;
   for(i = 0; i < n; i++){
     scanf("%d", &A[i]);
   }
